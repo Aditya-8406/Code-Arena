@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+
+# Sandbox temporary code runs
+executor/temp/
+executor/sandbox/
+*.exe
+*.o
+
+# Database local storage fallback
+.data/
+data/
+
+# Build artifacts
+client/dist/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db

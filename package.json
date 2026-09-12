@@ -1,0 +1,17 @@
+{
+  "name": "codearena",
+  "version": "1.0.0",
+  "description": "CodeArena - DSA Learning & Coding Assessment Platform (CSE Minor Project-I)",
+  "scripts": {
+    "seed": "node server/seed/seed.js",
+    "server": "node server/server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test:api": "node server/tests/api.test.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "author": "CSE Minor Project-I Team",
+  "license": "ISC"
+}
